@@ -1,0 +1,13 @@
+laptops=soup.find_all('div', class_="category-product products wrapper grid products-grid")
+
+# with open('laptop.csv','w', encoding='utf8', newline='') as file:
+#     #assign the writer
+#     w=writer(file)
+#     header=['Name','Price']
+#     w.writerow(header)
+# for laptop in laptops:
+#     name=laptop.find('tag',class_="Name")
+#     Price=laptop.find('tag',class_="Price")
+    
+#     table=['Name','Price']
+#     w.writerow(table
